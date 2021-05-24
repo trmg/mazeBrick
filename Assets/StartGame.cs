@@ -14,7 +14,7 @@ public class StartGame : MonoBehaviour
     public void StarGame()
     {
         dropDown = GetComponent<Dropdown>();
-        int val = dropDown.value(index);
+        int val = dropDown.value;
      
 
         if (val == 0)

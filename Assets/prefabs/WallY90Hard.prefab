@@ -9,11 +9,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5733978526277655644, guid: 0f3cc06390ddb624e9f347ada075fe3b, type: 3}
       propertyPath: m_Name
-      value: Wall
+      value: WallY90Hard
       objectReference: {fileID: 0}
     - target: {fileID: 5998452465058693647, guid: 0f3cc06390ddb624e9f347ada075fe3b, type: 3}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5998452465058693647, guid: 0f3cc06390ddb624e9f347ada075fe3b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 5998452465058693647, guid: 0f3cc06390ddb624e9f347ada075fe3b, type: 3}
       propertyPath: m_LocalPosition.x

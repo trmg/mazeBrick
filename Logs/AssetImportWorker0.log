@@ -15,11 +15,11 @@ C:/Users/tiago/Documents/GitHub/mazeBrick
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53261
+50890
 Successfully changed project path to: C:/Users/tiago/Documents/GitHub/mazeBrick
 C:/Users/tiago/Documents/GitHub/mazeBrick
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 139.11 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 101.06 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.7f1 (d91830b65d9b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Resources/UnitySubsystems
@@ -35,321 +35,43 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56132
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56896
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004657 seconds.
+Registered in 0.002671 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 143.04 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 97.65 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.714 seconds
+- Completed reload, in  1.855 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007118 seconds.
+Registered in 0.005894 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\tiago\Documents\GitHub\mazeBrick\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\tiago\Documents\GitHub\mazeBrick\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.420 seconds
+- Completed reload, in  1.652 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2699 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 111.5 MB.
 System memory in use after: 111.6 MB.
 
 Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3160.
-Total: 2.380200 ms (FindLiveObjects: 0.268600 ms CreateObjectMapping: 0.166500 ms MarkObjects: 1.816600 ms  DeleteObjects: 0.127000 ms)
+Total: 4.245200 ms (FindLiveObjects: 0.374000 ms CreateObjectMapping: 0.251500 ms MarkObjects: 3.451300 ms  DeleteObjects: 0.166100 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Tiling Material Pack_Free/Materials/Ground/Ground_010/Ground_010_Ambient_Occlusion.png
-  artifactKey: Guid(acc8e935d571bd64cbfce0b5dffd1674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiling Material Pack_Free/Materials/Ground/Ground_010/Ground_010_Ambient_Occlusion.png using Guid(acc8e935d571bd64cbfce0b5dffd1674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69154edaaa6c4b44479894099d05ccb7') in 0.152484 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000358 seconds.
-  path: Assets/HighQualityBricks&Walls/Images/brick-807728/brick-807728_normal.png
-  artifactKey: Guid(a2265e5c21ada234eba9f2a74ff5c47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HighQualityBricks&Walls/Images/brick-807728/brick-807728_normal.png using Guid(a2265e5c21ada234eba9f2a74ff5c47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ff1a2509cebc87b8f33201f52b2a4b') in 0.078812 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000369 seconds.
-  path: Assets/Tiling Material Pack_Free/Materials/Ground/Ground_008/Ground_008_Base_Color.png
-  artifactKey: Guid(317222793b8998b4a966feb45b55e8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiling Material Pack_Free/Materials/Ground/Ground_008/Ground_008_Base_Color.png using Guid(317222793b8998b4a966feb45b55e8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e97766f9f7ae24f2d01bcc9007ec47b') in 0.025360 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000361 seconds.
-  path: Assets/HighQualityBricks&Walls/Images/bricks-868344/bricks-868344_normal.png
-  artifactKey: Guid(09ebd21bab5296847877d5b8a32e8d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HighQualityBricks&Walls/Images/bricks-868344/bricks-868344_normal.png using Guid(09ebd21bab5296847877d5b8a32e8d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea911eaaf0e95bd6e92f1cbf3a738aa') in 0.025267 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000361 seconds.
-  path: Assets/Tiling Material Pack_Free/Materials/Ground/Ground_010/Ground_010_Material.mat
-  artifactKey: Guid(06b76aeaffbf4be49a3ce8d02f13a19d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiling Material Pack_Free/Materials/Ground/Ground_010/Ground_010_Material.mat using Guid(06b76aeaffbf4be49a3ce8d02f13a19d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fe6f0faac23c5f98ad9f6c84481160a') in 0.103762 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/HighQualityBricks&Walls/Images/brick-957827/brick-957827_specular.png
-  artifactKey: Guid(5fa9532a887c3e74ea6e585e3ea21cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HighQualityBricks&Walls/Images/brick-957827/brick-957827_specular.png using Guid(5fa9532a887c3e74ea6e585e3ea21cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '753a1b49b28d24fce66f2a0689ae416f') in 0.030160 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000359 seconds.
-  path: Assets/Textures/Floor_Roof/Materials/11 by 11 orthogonal maze 2.mat
-  artifactKey: Guid(b5e05c72650dbc245b3a63e69d75daed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Floor_Roof/Materials/11 by 11 orthogonal maze 2.mat using Guid(b5e05c72650dbc245b3a63e69d75daed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a866d7015c8dbf181d4581ffd4e96531') in 0.035506 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/Textures/Other_004/Other_004_Material.mat
-  artifactKey: Guid(4943a6011d100ae43beb4d81de7fcbfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Other_004/Other_004_Material.mat using Guid(4943a6011d100ae43beb4d81de7fcbfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db93a078a3c0af91367ac8fcb0d3ad77') in 0.057287 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/HighQualityBricks&Walls/Images/brick-807728/brick-807728_specular.png
-  artifactKey: Guid(1b23143232b41204d85d761b07d58631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HighQualityBricks&Walls/Images/brick-807728/brick-807728_specular.png using Guid(1b23143232b41204d85d761b07d58631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bf7e95d494b87c0c0f861418636dd26') in 0.029088 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000333 seconds.
-  path: Assets/Tiling Material Pack_Free/Materials/Ground/Ground_008/Ground_008_Height.png
-  artifactKey: Guid(2de071b4d54e14542b45dd87d840e7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiling Material Pack_Free/Materials/Ground/Ground_008/Ground_008_Height.png using Guid(2de071b4d54e14542b45dd87d840e7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '056fb84d36ea0661139150ad81aa02a0') in 0.028664 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/Tiling Material Pack_Free/Materials/Ground/Ground_008/Ground_008_Normal.png
-  artifactKey: Guid(503081dcfba495e45b8e574627442008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiling Material Pack_Free/Materials/Ground/Ground_008/Ground_008_Normal.png using Guid(503081dcfba495e45b8e574627442008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d51499343ea3a2a6af9eb167ced447e') in 0.025264 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/Tiling Material Pack_Free/Materials/Ground/Ground_008/Ground_008_Ambient_Occlusion.png
-  artifactKey: Guid(1cd36e46ce0706240bbef7f0a977ef8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiling Material Pack_Free/Materials/Ground/Ground_008/Ground_008_Ambient_Occlusion.png using Guid(1cd36e46ce0706240bbef7f0a977ef8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69a91c99a994536b0ff78048f1a6715f') in 0.026799 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000389 seconds.
-  path: Assets/Tiling Material Pack_Free/Materials/Other/Other_002/Other_002_Normal.png
-  artifactKey: Guid(334844194e9b4994ab22b5f74bef6cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiling Material Pack_Free/Materials/Other/Other_002/Other_002_Normal.png using Guid(334844194e9b4994ab22b5f74bef6cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf6c76ca91f4ea4081d326360dedf51') in 0.031209 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000406 seconds.
-  path: Assets/HighQualityBricks&Walls/Images/brick-957823/brick-957823_specular.png
-  artifactKey: Guid(2acc4043e712b29499e40abcb1600154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HighQualityBricks&Walls/Images/brick-957823/brick-957823_specular.png using Guid(2acc4043e712b29499e40abcb1600154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e9cfa5372667ec8163348d54c2d8766') in 0.026743 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000384 seconds.
-  path: Assets/Tiling Material Pack_Free/Materials/Ground/Ground_010/Ground_010_Normal.png
-  artifactKey: Guid(47018b0df8ed5b44f96b5065ebc8fdb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiling Material Pack_Free/Materials/Ground/Ground_010/Ground_010_Normal.png using Guid(47018b0df8ed5b44f96b5065ebc8fdb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55670ed0afb20537bd06254c0a561f44') in 0.020093 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000361 seconds.
-  path: Assets/Tiling Material Pack_Free/Model/Materials/defaultMat.mat
-  artifactKey: Guid(b7b8baaa56a086d4aafcc13daf3c3e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiling Material Pack_Free/Model/Materials/defaultMat.mat using Guid(b7b8baaa56a086d4aafcc13daf3c3e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '258471ab7791a8062cfcdc84208a102d') in 0.023912 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/HighQualityBricks&Walls/Images/brick-957823/brick-957823.png
-  artifactKey: Guid(1b81dacc68f5b89489a158fbeec3a7af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HighQualityBricks&Walls/Images/brick-957823/brick-957823.png using Guid(1b81dacc68f5b89489a158fbeec3a7af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c93dc5c97c7f980a211023626b7606c1') in 0.025838 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000350 seconds.
-  path: Assets/HighQualityBricks&Walls/Images/patch-924648/patch-924648_normal.png
-  artifactKey: Guid(e2038a0801477d74e83c29a9295d15b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HighQualityBricks&Walls/Images/patch-924648/patch-924648_normal.png using Guid(e2038a0801477d74e83c29a9295d15b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7781326c50ae4ef88d95d51b35461476') in 0.034995 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000357 seconds.
-  path: Assets/Tiling Material Pack_Free/Materials/Other/Other_002/Other_002_Material.mat
-  artifactKey: Guid(c2ff9d3c2b585fc4685c85d09c33fe21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiling Material Pack_Free/Materials/Other/Other_002/Other_002_Material.mat using Guid(c2ff9d3c2b585fc4685c85d09c33fe21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db11fce554a79ac983b9f8b8c53c0f86') in 0.066737 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000395 seconds.
-  path: Assets/Tiling Material Pack_Free/Materials/Ground/Ground_008/Ground_008_Material.mat
-  artifactKey: Guid(373eedab454df4340a2dc3fefd1588a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiling Material Pack_Free/Materials/Ground/Ground_008/Ground_008_Material.mat using Guid(373eedab454df4340a2dc3fefd1588a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ff499e8d5c4e7e7fefa678de2fd6bee') in 0.036989 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000385 seconds.
-  path: Assets/HighQualityBricks&Walls/Images/brick-957827/brick-957827.png
-  artifactKey: Guid(a37f1d4f17c3bb4459ea1285dc7387ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HighQualityBricks&Walls/Images/brick-957827/brick-957827.png using Guid(a37f1d4f17c3bb4459ea1285dc7387ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84633936eae8648b4a53b8dfe451e18f') in 0.025562 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001022 seconds.
-  path: Assets/HighQualityBricks&Walls/Images/bricks-868344/bricks-868344.png
-  artifactKey: Guid(a92a5894aa2810d46a3982fe1a02d0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HighQualityBricks&Walls/Images/bricks-868344/bricks-868344.png using Guid(a92a5894aa2810d46a3982fe1a02d0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e856f3ac33c2b59230eccd2acf07395a') in 0.034643 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/HighQualityBricks&Walls/Images/brick-957823/brick-957823_normal.png
-  artifactKey: Guid(bc5c58ffefebace418a2a63ba7fc82c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HighQualityBricks&Walls/Images/brick-957823/brick-957823_normal.png using Guid(bc5c58ffefebace418a2a63ba7fc82c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc78bd4b29697834e25b196dce89e9bb') in 0.033819 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000346 seconds.
-  path: Assets/HighQualityBricks&Walls/Images/patch-924648/patch-924648.png
-  artifactKey: Guid(d0ce344b7076db546add968cda141891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HighQualityBricks&Walls/Images/patch-924648/patch-924648.png using Guid(d0ce344b7076db546add968cda141891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b2fef0846f1d6bf90422f00c08f4dda') in 0.028737 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/HighQualityBricks&Walls/Images/brick-957827/brick-957827_normal.png
-  artifactKey: Guid(5196092d8a261af45a31acae191aa3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HighQualityBricks&Walls/Images/brick-957827/brick-957827_normal.png using Guid(5196092d8a261af45a31acae191aa3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27a3074ffe67ec534fa47e3fcd3ca608') in 0.035225 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/Tiling Material Pack_Free/Materials/Ground/Ground_010/Ground_010_Height.png
-  artifactKey: Guid(a64758c1bd25f3649b7bee5bfacc6042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiling Material Pack_Free/Materials/Ground/Ground_010/Ground_010_Height.png using Guid(a64758c1bd25f3649b7bee5bfacc6042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '041a2cfa043bc405e3403b4348ad2f45') in 0.016986 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/Tiling Material Pack_Free/Model/Materials/Material.001.mat
-  artifactKey: Guid(20ffcee03e3d59b4b9e218665ad3fa1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiling Material Pack_Free/Model/Materials/Material.001.mat using Guid(20ffcee03e3d59b4b9e218665ad3fa1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c443077fa4a6bd58d074532826f911f9') in 0.025982 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000342 seconds.
-  path: Assets/Tiling Material Pack_Free/Materials/Other/Other_002/Other_002_Ambient_Occlusion.png
-  artifactKey: Guid(86f418ec539f42848ae283420c290210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiling Material Pack_Free/Materials/Other/Other_002/Other_002_Ambient_Occlusion.png using Guid(86f418ec539f42848ae283420c290210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acfb53ce48e4606f972bbd8cbdf19600') in 0.017718 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/Tiling Material Pack_Free/Materials/Other/Other_002/Other_002_Base_Color.png
-  artifactKey: Guid(fd9d522e5955d464ea2af0239b87aac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiling Material Pack_Free/Materials/Other/Other_002/Other_002_Base_Color.png using Guid(fd9d522e5955d464ea2af0239b87aac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61744e2f1dd2be57e5b794e355cdb8a6') in 0.015033 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001224 seconds.
-  path: Assets/Tiling Material Pack_Free/Materials/Other/Other_002/Other_002_Height.png
-  artifactKey: Guid(afa876b25ff1fd44193e842c0b42a7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiling Material Pack_Free/Materials/Other/Other_002/Other_002_Height.png using Guid(afa876b25ff1fd44193e842c0b42a7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3139e84865ae91453c192122fcf45f80') in 0.015317 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/HighQualityBricks&Walls/Materials/bricks-868344.mat
-  artifactKey: Guid(171d305832c1ff8439b29868a108e89f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HighQualityBricks&Walls/Materials/bricks-868344.mat using Guid(171d305832c1ff8439b29868a108e89f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df16dc4b0138646c9c8de70edb0f5f3') in 0.294097 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000384 seconds.
-  path: Assets/HighQualityBricks&Walls/Images/brick-807728/brick-807728.png
-  artifactKey: Guid(96bb926b90b82744693ee966a9a1b5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HighQualityBricks&Walls/Images/brick-807728/brick-807728.png using Guid(96bb926b90b82744693ee966a9a1b5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f9ac870549600cf9f5d9fc7b07ab3e1') in 0.028365 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000314 seconds.
-  path: Assets/HighQualityBricks&Walls/Materials/patch-924648.mat
-  artifactKey: Guid(ab401e780d35a3e45ab242a36dc42d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HighQualityBricks&Walls/Materials/patch-924648.mat using Guid(ab401e780d35a3e45ab242a36dc42d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05b9a2a2300692cc16f48cac74bd5345') in 0.195679 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000383 seconds.
-  path: Assets/HighQualityBricks&Walls/Images/bricks-868344/bricks-868344_specular.png
-  artifactKey: Guid(37f1785902c31014e870ecdff41df12b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HighQualityBricks&Walls/Images/bricks-868344/bricks-868344_specular.png using Guid(37f1785902c31014e870ecdff41df12b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac37a74a81815abb43118dd3182d5607') in 0.016598 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000362 seconds.
-  path: Assets/HighQualityBricks&Walls/Materials/brick-957827.mat
-  artifactKey: Guid(27348c2da388ee24aadf8472f82ad963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HighQualityBricks&Walls/Materials/brick-957827.mat using Guid(27348c2da388ee24aadf8472f82ad963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa88fbf850ae408a8c20f310d8d578b0') in 0.173204 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000380 seconds.
-  path: Assets/HighQualityBricks&Walls/Materials/brick-807728.mat
-  artifactKey: Guid(3e46b23eb6516a34e8abad106a45e8c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HighQualityBricks&Walls/Materials/brick-807728.mat using Guid(3e46b23eb6516a34e8abad106a45e8c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3b5156e3152c83c36e4b3a1c1beefe7') in 0.287528 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000529 seconds.
-  path: Assets/Tiling Material Pack_Free/Materials/Ground/Ground_010/Ground_010_Base_Color.png
-  artifactKey: Guid(47ea10e5f4e890d448acf50109c8fc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiling Material Pack_Free/Materials/Ground/Ground_010/Ground_010_Base_Color.png using Guid(47ea10e5f4e890d448acf50109c8fc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a46c18f632f01959af934591d486899') in 0.024646 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/HighQualityBricks&Walls/Materials/brick-957823.mat
-  artifactKey: Guid(e66d282c1a589b740978ed3a03245fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HighQualityBricks&Walls/Materials/brick-957823.mat using Guid(e66d282c1a589b740978ed3a03245fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6a53c30ca6d5190700601fd8d0cbb4') in 0.222065 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004345 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\tiago\Documents\GitHub\mazeBrick\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\tiago\Documents\GitHub\mazeBrick\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.591 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.02 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2691 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 163.8 MB.
-System memory in use after: 164.0 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3597.
-Total: 3.385800 ms (FindLiveObjects: 0.473600 ms CreateObjectMapping: 0.266700 ms MarkObjects: 2.548000 ms  DeleteObjects: 0.095800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 130.724761 seconds.
-  path: Assets/Scenes/Menu.unity
-  artifactKey: Guid(7967951b74e38fa46a3065eecec4623b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Menu.unity using Guid(7967951b74e38fa46a3065eecec4623b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7157ec47b3e35064cd9b3285c4485646') in 0.039803 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 41.253500 seconds.
-  path: Assets/Scenes/MediumGame.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MediumGame.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c56a7d5e5a77291bbe7dc3a51299704') in 0.011349 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007209 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\tiago\Documents\GitHub\mazeBrick\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\tiago\Documents\GitHub\mazeBrick\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.472 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2665 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 163.1 MB.
-System memory in use after: 163.3 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3600.
-Total: 3.868600 ms (FindLiveObjects: 0.384900 ms CreateObjectMapping: 0.189400 ms MarkObjects: 3.191400 ms  DeleteObjects: 0.097400 ms)
-
+  path: Assets/Scenes/HardGame.unity
+  artifactKey: Guid(b29b0419ee00e154db86bbbf17d56cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/HardGame.unity using Guid(b29b0419ee00e154db86bbbf17d56cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f08a50db149d8c228d555bccf9c74a4c') in 0.033375 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

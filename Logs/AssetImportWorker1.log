@@ -1,0 +1,141 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.7f1 (d91830b65d9b) revision 14227504'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 18363.1556; Version 1909; 64bit' Language: 'pt' Physical Memory: 16267 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/tiago/Documents/GitHub/mazeBrick
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+54555
+Successfully changed project path to: C:/Users/tiago/Documents/GitHub/mazeBrick
+C:/Users/tiago/Documents/GitHub/mazeBrick
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 91.72 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.7f1 (d91830b65d9b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/tiago/Documents/GitHub/mazeBrick/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c20)
+    Vendor:   NVIDIA
+    VRAM:     6052 MB
+    Driver:   27.21.14.5730
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56240
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002612 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 127.93 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.026 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007327 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tiago\Documents\GitHub\mazeBrick\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tiago\Documents\GitHub\mazeBrick\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.803 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2699 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 111.5 MB.
+System memory in use after: 111.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3160.
+Total: 2.738600 ms (FindLiveObjects: 0.298700 ms CreateObjectMapping: 0.152000 ms MarkObjects: 2.159700 ms  DeleteObjects: 0.127000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Textures/Wood_004/Wood_004_Material.mat
+  artifactKey: Guid(136c51b4e5579c64db16d88a8a00fe66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wood_004/Wood_004_Material.mat using Guid(136c51b4e5579c64db16d88a8a00fe66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e7affce62a12507ea3cec8009f229a9') in 0.190250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Textures/Wood_004/Materials
+  artifactKey: Guid(3a3c3b0daa914c54195b6c667f123ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wood_004/Materials using Guid(3a3c3b0daa914c54195b6c667f123ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3596e96683796af1833f065ea76431ac') in 0.008661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 53.658094 seconds.
+  path: Assets/Textures/Other_004/Materials
+  artifactKey: Guid(2c673319e57d76a4abe20382169c40c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Other_004/Materials using Guid(2c673319e57d76a4abe20382169c40c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61a4a54ac628685c926caebed5dc418d') in 0.004528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.382198 seconds.
+  path: Assets/Textures/Other_004/Materials/Other_004_Ambient_Occlusion.mat
+  artifactKey: Guid(465623b12bd726f41bd82e1cb5ee64d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Other_004/Materials/Other_004_Ambient_Occlusion.mat using Guid(465623b12bd726f41bd82e1cb5ee64d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '507438f668315106482ede91c2628e48') in 0.020303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/Textures/Other_004/Materials/Other_004_Base_Color.mat
+  artifactKey: Guid(11e2410e167f4b74e8734cd870cdc762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Other_004/Materials/Other_004_Base_Color.mat using Guid(11e2410e167f4b74e8734cd870cdc762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dfd17a3cf8cdf9bb294d3fb51767c54') in 0.025909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 98.843782 seconds.
+  path: Assets/Textures/Floor_Roof/Bricks_01_mat2 1.mat
+  artifactKey: Guid(85e8240f0e6454042bd2563511a14804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Floor_Roof/Bricks_01_mat2 1.mat using Guid(85e8240f0e6454042bd2563511a14804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24302ae7b39d2402c75c3dfb1934cf83') in 0.061899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.184964 seconds.
+  path: Assets/Textures/Floor_Roof/Bricks_01_mat2 BIG.mat
+  artifactKey: Guid(fc06e59ed502071449891710462a040e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Floor_Roof/Bricks_01_mat2 BIG.mat using Guid(fc06e59ed502071449891710462a040e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55b1ebccc7b3051b6848a64d8544d213') in 0.032882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 102.555393 seconds.
+  path: Assets/Textures/Floor_Roof/Bricks_01_mat2 BIG.mat
+  artifactKey: Guid(fc06e59ed502071449891710462a040e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Floor_Roof/Bricks_01_mat2 BIG.mat using Guid(fc06e59ed502071449891710462a040e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95f5e6db0e8cd33c3ef37d40fc03602b') in 0.037126 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006382 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tiago\Documents\GitHub\mazeBrick\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tiago\Documents\GitHub\mazeBrick\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.765 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.17 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2665 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.3 MB.
+System memory in use after: 112.5 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3203.
+Total: 4.831600 ms (FindLiveObjects: 0.365000 ms CreateObjectMapping: 0.206400 ms MarkObjects: 4.162000 ms  DeleteObjects: 0.096100 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

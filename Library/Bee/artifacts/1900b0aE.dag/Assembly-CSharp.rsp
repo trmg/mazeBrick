@@ -319,6 +319,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/VSSettingsProvider.ref.dll"
 "Assets/Camera.cs"
 "Assets/Drop.cs"
+"Assets/PauseMenu.cs"
 "Assets/PlayerController.cs"
 "Assets/StartGame.cs"
 -langversion:8.0

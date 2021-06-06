@@ -16,24 +16,26 @@ public class PlayerCameraManager : MonoBehaviour
     void Start()
 
     {
-
+        
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
 
     }
 
     void Update()
-
     {
-
-        RotateCamera();
-
+        if(!PauseMenu.GameIsPaused) {
+            RotateCamera();
+        } else {
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
+        }
     }
 
     void RotateCamera()
 
     {
-
+        
         float Mouse_X = Input.GetAxis("Mouse X");
         float Mouse_Y = Input.GetAxis("Mouse Y");
 

@@ -8,7 +8,7 @@ public class PauseMenu : MonoBehaviour
 {
     public static bool GameIsPaused = false;
     public string sceneMenu;
-    public string sceneRestart;
+
 
     public GameObject pauseMenuUI;
     void Update()
@@ -46,7 +46,7 @@ public class PauseMenu : MonoBehaviour
 
     public void Restart()
     {
-        SceneManager.LoadScene(sceneRestart);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void Exit()

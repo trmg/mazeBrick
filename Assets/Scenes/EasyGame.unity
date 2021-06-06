@@ -1206,7 +1206,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneMenu: Menu
-  sceneRestart: 
   pauseMenuUI: {fileID: 274503612}
 --- !u!114 &52135899
 MonoBehaviour:
@@ -2266,9 +2265,6 @@ MonoBehaviour:
   Gravity: 20
   IsFalling: 1
   Stamina: 0
-  StaminaText: {fileID: 0}
-  JumpBoostIcon: {fileID: 0}
-  SpeedBoostIcon: {fileID: 0}
   MaxStamina: 100
   MinStamina: 0
   StaminaRegenerationRate: 30
@@ -2801,7 +2797,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneMenu: 
-  sceneRestart: 
   pauseMenuUI: {fileID: 274503612}
 --- !u!1001 &286889807
 PrefabInstance:
@@ -6224,7 +6219,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneMenu: 
-  sceneRestart: EasyGame
   pauseMenuUI: {fileID: 274503612}
 --- !u!114 &892803206
 MonoBehaviour:
@@ -6272,7 +6266,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 892803205}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
-        m_MethodName: MainMenu
+        m_MethodName: Restart
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6913,7 +6907,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneMenu: 
-  sceneRestart: 
   pauseMenuUI: {fileID: 274503612}
 --- !u!114 &968946024
 MonoBehaviour:
@@ -11039,7 +11032,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneMenu: 
-  sceneRestart: 
   pauseMenuUI: {fileID: 274503612}
 --- !u!1001 &1769431069
 PrefabInstance:

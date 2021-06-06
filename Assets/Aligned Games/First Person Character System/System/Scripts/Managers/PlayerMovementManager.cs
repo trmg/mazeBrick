@@ -62,11 +62,6 @@ public class PlayerMovementManager : MonoBehaviour
 
     public float Stamina;
 
-    public Text StaminaText;
-
-    public Image JumpBoostIcon;
-    public Image SpeedBoostIcon;
-
     public float MaxStamina;
     public float MinStamina;
 
@@ -96,13 +91,6 @@ public class PlayerMovementManager : MonoBehaviour
 
     {
 
-        StaminaText = GameObject.Find("StaminaText").GetComponent<Text>();
-        SpeedBoostIcon = GameObject.Find("SpeedBoostIcon").GetComponent<Image>();
-        JumpBoostIcon = GameObject.Find("JumpBoostIcon").GetComponent<Image>();
-
-        SpeedBoostIcon.enabled = false;
-        JumpBoostIcon.enabled = false;
-
         IsFalling = false;
 
     }
@@ -110,8 +98,6 @@ public class PlayerMovementManager : MonoBehaviour
     void Update()
 
     {
-
-        StaminaText.text = Stamina.ToString("0");
 
         Vector3 Upwards = transform.up;
 
@@ -352,14 +338,10 @@ public class PlayerMovementManager : MonoBehaviour
         WalkSpeed *= 3;
         RunSpeed *= 3;
 
-        SpeedBoostIcon.enabled = true;
-
         yield return new WaitForSeconds(SpeedBoostTime);
 
         WalkSpeed /= 3;
         RunSpeed /= 3;
-
-        SpeedBoostIcon.enabled = false;
 
     }
 
@@ -369,13 +351,10 @@ public class PlayerMovementManager : MonoBehaviour
 
         JumpSpeed *= 3;
 
-        JumpBoostIcon.enabled = true;
-
         yield return new WaitForSeconds(JumpBoostTime);
 
         JumpSpeed /= 3;
 
-        JumpBoostIcon.enabled = false;
 
     }
 
